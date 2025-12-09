@@ -1,0 +1,21 @@
+{
+  "name": "cyberui",
+  "displayName": "CyberUI",
+  "description": "A high-contrast dark theme inspired by cyberpunk aesthetics and futuristic user interfaces (UI). Transform your editor into a high-tech terminal with vibrant neon colors—cyan, magenta, and electric green—set against deep backgrounds, optimized for immersion and late-night coding sessions.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "cyberui",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberui-color-theme.json"
+      }
+    ]
+  }
+}
