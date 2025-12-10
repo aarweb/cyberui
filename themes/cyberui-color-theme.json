@@ -68,7 +68,7 @@
 		"editorGutter.modifiedBackground": "#FF006E",
 		"editorGutter.addedBackground": "#55EAD4",
 		"editorGutter.deletedBackground": "#C5003C",
-		"editorError.foreground": "#C5003C",
+		"editorError.foreground": "#FF3B8D",
 		"editorWarning.foreground": "#F3E600",
 		"editorInfo.foreground": "#55EAD4",
 		"editorHint.foreground": "#880425",
@@ -456,19 +456,26 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#880425"
+				"foreground": "#7F6CFF"
 			}
 		},
 		{
-			"name": "Variables - Optical Cyan (Data)",
+			"name": "Variables - Electric Yellow (Data)",
 			"scope": [
 				"variable",
 				"variable.other",
 				"variable.parameter",
+				"variable.other.property",
+				"variable.other.member",
+				"variable.other.member.python",
+				"variable.other.attribute",
+				"meta.attribute.python",
+				"meta.object-literal.key",
+				"meta.property.object",
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#55EAD4"
+				"foreground": "#F3E600"
 			}
 		},
 		{
@@ -531,16 +538,18 @@
 			}
 		},
 		{
-			"name": "Functions - Pink Neon (Action)",
+			"name": "Functions - Optical Cyan (Action)",
 			"scope": [
 				"entity.name.function",
+				"entity.name.function.python",
 				"meta.function-call",
+				"meta.function-call.python",
 				"variable.function",
 				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#FF006E"
+				"foreground": "#55EAD4"
 			}
 		},
 		{
@@ -582,14 +591,14 @@
 			}
 		},
 		{
-			"name": "HTML/XML Attributes - Optical Cyan",
+			"name": "HTML/XML Attributes - Electric Yellow",
 			"scope": [
 				"entity.other.attribute-name",
 				"text.html.basic entity.other.attribute-name.html",
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#55EAD4",
+				"foreground": "#F3E600",
 				"fontStyle": "italic"
 			}
 		},
@@ -599,20 +608,23 @@
 				"entity.name.tag.css",
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.id.css",
-				"source.css entity.name.tag"
+				"source.css entity.name.tag",
+				"source.css meta.selector.css entity.name.tag",
+				"source.css meta.selector entity.name.tag",
+				"source.css meta.selector meta.selector entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#FF006E"
 			}
 		},
 		{
-			"name": "CSS Properties - Optical Cyan",
+			"name": "CSS Properties - Electric Yellow",
 			"scope": [
 				"support.type.property-name.css",
 				"meta.property-name.css"
 			],
 			"settings": {
-				"foreground": "#55EAD4"
+				"foreground": "#F3E600"
 			}
 		},
 		{
