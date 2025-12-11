@@ -5,6 +5,84 @@ All notable changes to **CyberUI - Cyberpunk Neon Theme** will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2025-12-11
+
+### ✨ Added
+
+- 🍎 **Swift Support**: Complete iOS/macOS development syntax highlighting
+
+  - Keywords, storage modifiers
+  - Functions, classes/structs/enums
+  - Protocols, extensions, generics
+  - Optionals, attributes, guard/defer
+  - Self keyword with italic style
+
+- 📱 **Dart/Flutter Support**: Complete mobile development syntax highlighting
+
+  - Keywords, storage types
+  - Functions, constructors
+  - Classes, widgets
+  - Annotations/metadata with italic
+  - Async/await, null safety operators
+  - Named parameters, string interpolation
+
+- ⚡ **Svelte Support**: Complete frontend framework syntax highlighting
+
+  - Component tags, HTML tags
+  - Directives, blocks, reactive statements
+  - Bindings, events
+  - Expressions, special elements
+
+- 💻 **PowerShell Support**: Complete Windows scripting syntax highlighting
+
+  - Keywords, cmdlets
+  - Variables (regular and automatic)
+  - Parameters, operators
+  - Splatting, attributes, types
+  - Hashtables, pipeline operator
+
+- 📄 **TOML Support**: Complete configuration syntax highlighting
+
+  - Tables, array tables
+  - Keys, values
+  - Numbers, booleans, dates
+  - Punctuation
+
+- 🎮 **Lua Support**: Complete game development syntax highlighting
+
+  - Keywords, functions
+  - Local modifier, self
+  - Tables, metamethods
+  - Require function, operators
+  - Constants
+
+- 📊 **R Support**: Complete data science syntax highlighting
+
+  - Keywords, functions
+  - Variables, assignment operators
+  - Pipe operator with bold
+  - Namespaces, constants
+  - Formula operator (tilde)
+
+- ⚙️ **Scala Support**: Complete big data syntax highlighting
+
+  - Keywords, storage modifiers
+  - Functions, classes/objects/traits
+  - Type parameters, annotations
+  - This/super, pattern matching
+  - Implicit keyword, lambda arrows
+  - String interpolation
+
+- 💜 **Elixir Support**: Complete functional backend syntax highlighting
+
+  - Keywords, def keywords
+  - Functions, modules
+  - Atoms with purple color
+  - Module attributes, sigils
+  - Pipe operator with bold
+  - Guards, capture operator
+  - Anonymous functions
+
 ## [1.3.0] - 2025-12-11
 
 ### ✨ Added
