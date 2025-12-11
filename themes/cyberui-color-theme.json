@@ -2755,6 +2755,713 @@
 				"foreground": "#F3E600",
 				"fontStyle": "italic"
 			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// YAML - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "YAML - Keys",
+			"scope": [
+				"entity.name.tag.yaml",
+				"support.type.property-name.yaml"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "YAML - Values",
+			"scope": [
+				"string.unquoted.plain.yaml",
+				"string.quoted.single.yaml",
+				"string.quoted.double.yaml"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "YAML - Anchors/Aliases",
+			"scope": [
+				"entity.name.type.anchor.yaml",
+				"variable.other.alias.yaml",
+				"punctuation.definition.anchor.yaml",
+				"punctuation.definition.alias.yaml"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "YAML - Tags",
+			"scope": [
+				"storage.type.tag-handle.yaml",
+				"constant.language.yaml"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "YAML - Punctuation",
+			"scope": [
+				"punctuation.definition.block.sequence.item.yaml",
+				"punctuation.separator.key-value.yaml"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "YAML - Numbers/Booleans",
+			"scope": [
+				"constant.numeric.yaml",
+				"constant.language.boolean.yaml",
+				"constant.language.null.yaml"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// SQL - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "SQL - Keywords",
+			"scope": [
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.DDL.sql",
+				"keyword.other.DML.II.sql",
+				"keyword.other.authorization.sql",
+				"keyword.other.data-integrity.sql"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SQL - DML Statements",
+			"scope": [
+				"keyword.other.DML.sql",
+				"keyword.other.select.sql",
+				"keyword.other.insert.sql",
+				"keyword.other.update.sql",
+				"keyword.other.delete.sql"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SQL - Functions",
+			"scope": [
+				"support.function.sql",
+				"support.function.aggregate.sql",
+				"support.function.scalar.sql",
+				"support.function.string.sql"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "SQL - Types",
+			"scope": [
+				"storage.type.sql",
+				"support.type.sql"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "SQL - Tables/Columns",
+			"scope": [
+				"entity.name.function.sql",
+				"entity.other.alias.sql"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "SQL - Strings",
+			"scope": [
+				"string.quoted.single.sql",
+				"string.quoted.double.sql"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "SQL - Operators",
+			"scope": [
+				"keyword.operator.sql",
+				"keyword.operator.comparison.sql",
+				"keyword.operator.logical.sql",
+				"keyword.operator.star.sql"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "SQL - Constants",
+			"scope": [
+				"constant.numeric.sql",
+				"constant.language.sql",
+				"constant.other.placeholder.sql"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// SCSS/SASS - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "SCSS - Variables",
+			"scope": [
+				"variable.scss",
+				"variable.sass",
+				"variable.parameter.scss",
+				"variable.parameter.sass"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "SCSS - Mixins",
+			"scope": [
+				"entity.name.function.scss",
+				"entity.name.function.sass",
+				"keyword.control.at-rule.mixin.scss",
+				"keyword.control.at-rule.mixin.sass"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SCSS - Include",
+			"scope": [
+				"keyword.control.at-rule.include.scss",
+				"keyword.control.at-rule.include.sass"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "SCSS - Extend",
+			"scope": [
+				"keyword.control.at-rule.extend.scss",
+				"keyword.control.at-rule.extend.sass"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SCSS - Interpolation",
+			"scope": [
+				"variable.interpolation.scss",
+				"variable.interpolation.sass",
+				"punctuation.definition.interpolation.scss"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "SCSS - Control Directives",
+			"scope": [
+				"keyword.control.if.scss",
+				"keyword.control.else.scss",
+				"keyword.control.for.scss",
+				"keyword.control.each.scss",
+				"keyword.control.while.scss"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "SCSS - Parent Selector",
+			"scope": [
+				"entity.other.attribute-name.parent-selector.scss",
+				"entity.other.attribute-name.parent-selector.sass"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "SCSS - Placeholder",
+			"scope": [
+				"entity.other.attribute-name.placeholder.scss",
+				"entity.other.attribute-name.placeholder.sass"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SCSS - Functions",
+			"scope": [
+				"support.function.scss",
+				"support.function.sass",
+				"support.function.misc.scss"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// DOCKERFILE - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Dockerfile - Instructions",
+			"scope": [
+				"keyword.other.dockerfile",
+				"keyword.control.dockerfile",
+				"keyword.other.special-method.dockerfile"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Dockerfile - FROM",
+			"scope": [
+				"keyword.other.dockerfile.from",
+				"entity.name.image.dockerfile"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Dockerfile - Image Names",
+			"scope": [
+				"entity.name.image.dockerfile",
+				"constant.other.image.dockerfile"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Dockerfile - Variables",
+			"scope": [
+				"variable.other.dockerfile",
+				"variable.other.bracket.dockerfile"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Dockerfile - ARG/ENV",
+			"scope": [
+				"keyword.other.dockerfile.arg",
+				"keyword.other.dockerfile.env"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Dockerfile - Strings",
+			"scope": [
+				"string.quoted.dockerfile",
+				"string.quoted.double.dockerfile",
+				"string.quoted.single.dockerfile"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Dockerfile - Comments",
+			"scope": [
+				"comment.line.dockerfile",
+				"comment.line.number-sign.dockerfile"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Dockerfile - EXPOSE Ports",
+			"scope": [
+				"constant.numeric.dockerfile"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// GRAPHQL - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "GraphQL - Keywords",
+			"scope": [
+				"keyword.graphql",
+				"keyword.operation.graphql",
+				"keyword.type.graphql",
+				"keyword.fragment.graphql"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "GraphQL - Type Definitions",
+			"scope": [
+				"entity.name.type.graphql",
+				"support.type.graphql",
+				"entity.scalar.graphql"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "GraphQL - Fields",
+			"scope": [
+				"entity.name.field.graphql",
+				"variable.graphql",
+				"variable.other.graphql"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "GraphQL - Arguments",
+			"scope": [
+				"variable.argument.graphql",
+				"variable.parameter.graphql",
+				"meta.arguments.graphql"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "GraphQL - Directives",
+			"scope": [
+				"entity.name.directive.graphql",
+				"keyword.directive.graphql"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "GraphQL - Enums",
+			"scope": [
+				"constant.enum.graphql",
+				"constant.character.enum.graphql"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "GraphQL - Strings",
+			"scope": [
+				"string.quoted.graphql",
+				"string.quoted.double.graphql",
+				"string.block.graphql"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "GraphQL - Operations (Query/Mutation/Subscription)",
+			"scope": [
+				"keyword.operation.query.graphql",
+				"keyword.operation.mutation.graphql",
+				"keyword.operation.subscription.graphql"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "GraphQL - Fragment",
+			"scope": [
+				"keyword.fragment.graphql",
+				"entity.name.fragment.graphql"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "GraphQL - Input Types",
+			"scope": [
+				"keyword.input.graphql",
+				"entity.name.type.input.graphql"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// TERRAFORM/HCL - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Terraform - Block Types",
+			"scope": [
+				"entity.name.type.terraform",
+				"keyword.other.terraform",
+				"storage.type.terraform"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Terraform - Resource/Data Types",
+			"scope": [
+				"entity.name.resource.terraform",
+				"entity.name.data.terraform",
+				"entity.name.type.resource.terraform"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Terraform - Resource Names",
+			"scope": [
+				"entity.name.label.terraform",
+				"entity.name.resource.label.terraform"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Terraform - Variables",
+			"scope": [
+				"variable.terraform",
+				"variable.other.terraform",
+				"variable.other.readwrite.terraform"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Terraform - Interpolation",
+			"scope": [
+				"punctuation.section.interpolation.terraform",
+				"meta.interpolation.terraform",
+				"variable.other.member.terraform"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Terraform - Functions",
+			"scope": [
+				"support.function.terraform",
+				"support.function.builtin.terraform"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Terraform - Attributes",
+			"scope": [
+				"entity.other.attribute-name.terraform",
+				"variable.declaration.terraform"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Terraform - Strings",
+			"scope": [
+				"string.quoted.double.terraform",
+				"string.terraform"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Terraform - Numbers/Booleans",
+			"scope": [
+				"constant.numeric.terraform",
+				"constant.language.terraform"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Terraform - Locals/Outputs/Variables Blocks",
+			"scope": [
+				"keyword.control.terraform",
+				"keyword.terraform"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Terraform - Provisioners",
+			"scope": [
+				"entity.name.provisioner.terraform",
+				"keyword.provisioner.terraform"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "Terraform - Module Source",
+			"scope": [
+				"string.quoted.terraform.module",
+				"entity.name.module.terraform"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "italic"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// ANGULAR - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Angular - Decorators",
+			"scope": [
+				"meta.decorator.ts",
+				"punctuation.decorator.ts"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Angular - Template Bindings",
+			"scope": [
+				"entity.other.attribute-name.template.html",
+				"punctuation.definition.template-expression.angular"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "Angular - Interpolation",
+			"scope": [
+				"punctuation.definition.interpolation.begin.html",
+				"punctuation.definition.interpolation.end.html",
+				"meta.interpolation.html"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Angular - Event Binding",
+			"scope": [
+				"entity.other.attribute-name.event.html",
+				"punctuation.definition.event.html"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Angular - Property Binding",
+			"scope": [
+				"entity.other.attribute-name.property.html",
+				"punctuation.definition.property.html"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Angular - Structural Directives",
+			"scope": [
+				"entity.other.attribute-name.structural.html",
+				"punctuation.definition.structural.html"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Angular - Pipes",
+			"scope": [
+				"entity.name.function.pipe.html",
+				"keyword.operator.pipe.html"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Angular - NgModule Keywords",
+			"scope": [
+				"entity.name.type.module.ts",
+				"support.type.object.module.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
 		}
 	]
 }
