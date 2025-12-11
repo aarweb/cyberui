@@ -5,6 +5,61 @@ All notable changes to **CyberUI - Cyberpunk Neon Theme** will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-12-11
+
+### ✨ Added
+
+- 📜 **JavaScript/TypeScript Enhanced Support**: Complete syntax highlighting
+
+  - Keywords, storage types (const/let/var)
+  - Functions, arrow functions, async/await
+  - Classes, interfaces, type annotations
+  - Generics with purple italic
+  - Decorators with yellow italic
+  - Import/export, module names
+  - Template literals and expressions
+  - Promise, Console, DOM support
+
+- ⚛️ **JSX/TSX (React) Support**: Full React syntax highlighting
+
+  - HTML tags vs Component tags (different colors)
+  - Attributes with yellow italic
+  - Expression braces
+  - String values in JSX
+
+- 💚 **Vue Support**: Vue-specific syntax highlighting
+
+  - Template/script/style tags
+  - Directives (v-bind, v-on, v-if, v-for, v-model)
+  - Interpolation syntax
+  - Component names
+
+- ☕ **Java Enhanced Support**: Complete syntax highlighting
+
+  - Keywords, storage, modifiers
+  - Functions, classes, interfaces, enums
+  - Annotations with yellow italic
+  - Generics with purple italic
+  - Package/import statements
+  - this/super keywords
+
+- 💎 **Ruby Enhanced Support**: Complete syntax highlighting
+
+  - Keywords, functions, classes, modules
+  - Symbols with purple
+  - Instance/class/global variables
+  - Blocks, string interpolation
+  - Regex, self, attr accessors
+
+- 🐚 **Shell/Bash Enhanced Support**: Complete syntax highlighting
+  - Keywords, conditionals
+  - Functions, builtin commands
+  - Variables, special variables
+  - Shebang with purple bold
+  - Command substitution
+  - Pipes, redirects, logical operators
+  - Options/flags with yellow italic
+
 ## [1.1.0] - 2025-12-11
 
 ### ✨ Added

@@ -1952,6 +1952,809 @@
 			"settings": {
 				"foreground": "#FF006E"
 			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// JAVASCRIPT/TYPESCRIPT - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "JS/TS - Keywords",
+			"scope": [
+				"keyword.control.js",
+				"keyword.control.ts",
+				"keyword.control.flow.js",
+				"keyword.control.flow.ts",
+				"keyword.control.loop.js",
+				"keyword.control.loop.ts",
+				"keyword.control.conditional.js",
+				"keyword.control.conditional.ts",
+				"keyword.control.trycatch.js",
+				"keyword.control.trycatch.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JS/TS - Storage",
+			"scope": [
+				"storage.type.js",
+				"storage.type.ts",
+				"storage.type.function.js",
+				"storage.type.function.ts",
+				"storage.type.class.js",
+				"storage.type.class.ts",
+				"storage.modifier.js",
+				"storage.modifier.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JS/TS - Const/Let/Var",
+			"scope": [
+				"storage.type.const.js",
+				"storage.type.const.ts",
+				"storage.type.let.js",
+				"storage.type.let.ts",
+				"storage.type.var.js",
+				"storage.type.var.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JS/TS - Function Definitions",
+			"scope": [
+				"entity.name.function.js",
+				"entity.name.function.ts",
+				"meta.function.js entity.name.function.js",
+				"meta.function.ts entity.name.function.ts",
+				"meta.definition.function.js entity.name.function.js",
+				"meta.definition.function.ts entity.name.function.ts"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JS/TS - Function Calls",
+			"scope": [
+				"meta.function-call.js",
+				"meta.function-call.ts",
+				"entity.name.function.call.js",
+				"entity.name.function.call.ts"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "JS/TS - Arrow Functions",
+			"scope": [
+				"storage.type.function.arrow.js",
+				"storage.type.function.arrow.ts",
+				"meta.arrow.js",
+				"meta.arrow.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "JS/TS - Async/Await",
+			"scope": [
+				"storage.modifier.async.js",
+				"storage.modifier.async.ts",
+				"keyword.control.flow.await.js",
+				"keyword.control.flow.await.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "JS/TS - Classes",
+			"scope": [
+				"entity.name.type.class.js",
+				"entity.name.type.class.ts",
+				"support.class.js",
+				"support.class.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JS/TS - Interfaces (TS)",
+			"scope": [
+				"entity.name.type.interface.ts",
+				"entity.name.type.type.ts",
+				"entity.name.type.alias.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JS/TS - Type Annotations (TS)",
+			"scope": [
+				"meta.type.annotation.ts",
+				"support.type.primitive.ts",
+				"support.type.builtin.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "JS/TS - Generics (TS)",
+			"scope": [
+				"meta.type.parameters.ts",
+				"entity.name.type.parameter.ts"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JS/TS - Decorators",
+			"scope": [
+				"meta.decorator.js",
+				"meta.decorator.ts",
+				"punctuation.decorator.js",
+				"punctuation.decorator.ts"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JS/TS - Import/Export",
+			"scope": [
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.export.js",
+				"keyword.control.export.ts",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.default.js",
+				"keyword.control.default.ts"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "JS/TS - Module Names",
+			"scope": [
+				"string.quoted.module.js",
+				"string.quoted.module.ts",
+				"meta.import.js string.quoted",
+				"meta.import.ts string.quoted"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "JS/TS - Object Properties",
+			"scope": [
+				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts",
+				"variable.object.property.js",
+				"variable.object.property.ts"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "JS/TS - Template Literals",
+			"scope": [
+				"string.template.js",
+				"string.template.ts",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.begin.ts",
+				"punctuation.definition.template-expression.end.js",
+				"punctuation.definition.template-expression.end.ts"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "JS/TS - Template Expressions",
+			"scope": [
+				"meta.template.expression.js",
+				"meta.template.expression.ts"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "JS/TS - Promise/Console",
+			"scope": [
+				"support.class.promise.js",
+				"support.class.promise.ts",
+				"support.class.console.js",
+				"support.class.console.ts",
+				"support.function.console.js",
+				"support.function.console.ts"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "JS/TS - DOM",
+			"scope": [
+				"support.class.dom.js",
+				"support.class.dom.ts",
+				"support.constant.dom.js",
+				"support.constant.dom.ts"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// JSX/TSX - REACT SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "JSX/TSX - Tags",
+			"scope": [
+				"entity.name.tag.jsx",
+				"entity.name.tag.tsx",
+				"support.class.component.jsx",
+				"support.class.component.tsx"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "JSX/TSX - Component Tags",
+			"scope": [
+				"support.class.component.jsx",
+				"support.class.component.tsx",
+				"entity.name.tag.component.jsx",
+				"entity.name.tag.component.tsx"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "JSX/TSX - Attributes",
+			"scope": [
+				"entity.other.attribute-name.jsx",
+				"entity.other.attribute-name.tsx",
+				"meta.tag.attributes.jsx entity.other.attribute-name",
+				"meta.tag.attributes.tsx entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "JSX/TSX - Expression Braces",
+			"scope": [
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "JSX/TSX - String Values",
+			"scope": [
+				"string.quoted.jsx",
+				"string.quoted.tsx",
+				"meta.jsx.children.js",
+				"meta.jsx.children.tsx"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// VUE - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Vue - Template Tags",
+			"scope": [
+				"entity.name.tag.template.html.vue",
+				"entity.name.tag.script.html.vue",
+				"entity.name.tag.style.html.vue"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Vue - Directives",
+			"scope": [
+				"entity.other.attribute-name.directive.vue",
+				"keyword.control.directive.vue",
+				"entity.other.attribute-name.v-bind.vue",
+				"entity.other.attribute-name.v-on.vue",
+				"entity.other.attribute-name.v-if.vue",
+				"entity.other.attribute-name.v-for.vue",
+				"entity.other.attribute-name.v-model.vue"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Vue - Interpolation",
+			"scope": [
+				"punctuation.definition.interpolation.vue",
+				"expression.embedded.vue"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Vue - Component Names",
+			"scope": [
+				"entity.name.tag.component.vue",
+				"support.class.component.vue"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// JAVA - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Java - Keywords",
+			"scope": [
+				"keyword.control.java",
+				"keyword.control.flow.java",
+				"keyword.control.loop.java",
+				"keyword.control.conditional.java",
+				"keyword.control.exception.java"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Java - Storage/Modifiers",
+			"scope": [
+				"storage.type.java",
+				"storage.modifier.java",
+				"storage.type.primitive.java",
+				"storage.type.object.java",
+				"storage.type.generic.java"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Java - Function Definitions",
+			"scope": [
+				"entity.name.function.java",
+				"meta.function.java entity.name.function.java",
+				"meta.method.java entity.name.function.java"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Java - Function Calls",
+			"scope": [
+				"meta.function-call.java",
+				"meta.method-call.java"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Java - Classes",
+			"scope": [
+				"entity.name.type.class.java",
+				"support.class.java"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Java - Interfaces",
+			"scope": [
+				"entity.name.type.interface.java",
+				"storage.type.interface.java"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java - Enums",
+			"scope": [
+				"entity.name.type.enum.java",
+				"storage.type.enum.java"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Java - Annotations",
+			"scope": [
+				"meta.declaration.annotation.java",
+				"storage.type.annotation.java",
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java - Generics",
+			"scope": [
+				"storage.type.generic.java",
+				"punctuation.bracket.angle.java"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java - Package/Import",
+			"scope": [
+				"keyword.other.package.java",
+				"keyword.other.import.java",
+				"storage.modifier.import.java"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Java - This/Super",
+			"scope": [
+				"variable.language.this.java",
+				"variable.language.super.java"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Java - Static",
+			"scope": [
+				"storage.modifier.static.java"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// RUBY - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Ruby - Keywords",
+			"scope": [
+				"keyword.control.ruby",
+				"keyword.control.flow.ruby",
+				"keyword.control.class.ruby",
+				"keyword.control.module.ruby",
+				"keyword.control.def.ruby",
+				"keyword.control.loop.ruby",
+				"keyword.control.conditional.ruby"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Ruby - Function Definitions",
+			"scope": [
+				"entity.name.function.ruby",
+				"meta.function.ruby entity.name.function.ruby"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Ruby - Classes",
+			"scope": [
+				"entity.name.type.class.ruby",
+				"support.class.ruby"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Ruby - Modules",
+			"scope": [
+				"entity.name.type.module.ruby",
+				"support.class.module.ruby"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Ruby - Symbols",
+			"scope": [
+				"constant.other.symbol.ruby",
+				"punctuation.definition.constant.ruby"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "Ruby - Instance Variables",
+			"scope": [
+				"variable.other.readwrite.instance.ruby",
+				"punctuation.definition.variable.ruby"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Ruby - Class Variables",
+			"scope": [
+				"variable.other.readwrite.class.ruby"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Ruby - Global Variables",
+			"scope": [
+				"variable.other.readwrite.global.ruby"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "Ruby - Blocks",
+			"scope": [
+				"keyword.control.start-block.ruby",
+				"punctuation.section.function.ruby",
+				"punctuation.section.block.ruby"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Ruby - String Interpolation",
+			"scope": [
+				"punctuation.section.embedded.ruby",
+				"source.ruby.embedded"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Ruby - Regex",
+			"scope": [
+				"string.regexp.ruby",
+				"punctuation.definition.string.ruby"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "Ruby - Self",
+			"scope": [
+				"variable.language.self.ruby"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Ruby - Attr Accessors",
+			"scope": [
+				"support.function.attribute.ruby"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// SHELL/BASH - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Shell - Keywords",
+			"scope": [
+				"keyword.control.shell",
+				"keyword.control.bash",
+				"keyword.control.flow.shell",
+				"keyword.control.flow.bash"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Shell - Conditionals",
+			"scope": [
+				"keyword.control.conditional.shell",
+				"keyword.control.conditional.bash"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Shell - Functions",
+			"scope": [
+				"entity.name.function.shell",
+				"entity.name.function.bash",
+				"support.function.builtin.shell",
+				"support.function.builtin.bash"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Shell - Commands",
+			"scope": [
+				"support.function.shell",
+				"support.function.bash",
+				"meta.function-call.shell",
+				"meta.function-call.bash"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Shell - Variables",
+			"scope": [
+				"variable.other.shell",
+				"variable.other.bash",
+				"variable.other.normal.shell",
+				"variable.other.normal.bash",
+				"punctuation.definition.variable.shell",
+				"punctuation.definition.variable.bash"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Shell - Special Variables",
+			"scope": [
+				"variable.other.special.shell",
+				"variable.other.special.bash",
+				"variable.other.positional.shell",
+				"variable.other.positional.bash"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "Shell - Shebang",
+			"scope": [
+				"comment.line.shebang.shell",
+				"comment.line.shebang.bash",
+				"punctuation.definition.comment.shebang.shell"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Shell - Command Substitution",
+			"scope": [
+				"punctuation.definition.evaluation.shell",
+				"punctuation.definition.evaluation.bash",
+				"string.interpolated.backtick.shell",
+				"string.interpolated.backtick.bash"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Shell - Pipes/Redirects",
+			"scope": [
+				"keyword.operator.pipe.shell",
+				"keyword.operator.pipe.bash",
+				"keyword.operator.redirect.shell",
+				"keyword.operator.redirect.bash"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Shell - Logical Operators",
+			"scope": [
+				"keyword.operator.logical.shell",
+				"keyword.operator.logical.bash"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Shell - Options/Flags",
+			"scope": [
+				"string.unquoted.argument.shell",
+				"punctuation.definition.arguments.shell"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
 		}
 	]
 }
