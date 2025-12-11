@@ -1191,6 +1191,256 @@
 				"foreground": "#FF006E",
 				"fontStyle": "italic"
 			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// PYTHON - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+		
+		{
+			"name": "Python - Keywords",
+			"scope": [
+				"keyword.control.python",
+				"keyword.control.flow.python",
+				"keyword.control.import.python",
+				"keyword.control.conditional.python",
+				"keyword.control.loop.python",
+				"keyword.control.exception.python",
+				"keyword.operator.logical.python"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python - Function Definitions",
+			"scope": [
+				"entity.name.function.python",
+				"meta.function.python entity.name.function.python"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python - Function Calls",
+			"scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Python - Class Definitions",
+			"scope": [
+				"entity.name.type.class.python",
+				"meta.class.python entity.name.type.class.python"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python - Inherited Class",
+			"scope": [
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - Parameters",
+			"scope": [
+				"variable.parameter.function.python",
+				"variable.parameter.function.language.python",
+				"meta.function.parameters.python variable.parameter.function.python"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - Builtin Functions",
+			"scope": [
+				"support.function.builtin.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - Builtin Types",
+			"scope": [
+				"support.type.python",
+				"support.type.exception.python"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Python - Magic Methods (Dunder)",
+			"scope": [
+				"support.function.magic.python",
+				"support.variable.magic.python",
+				"variable.other.readwrite.magic.python"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - F-String",
+			"scope": [
+				"string.interpolated.python",
+				"meta.fstring.python",
+				"storage.type.string.python"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Python - F-String Expressions",
+			"scope": [
+				"meta.fstring.python meta.embedded.python",
+				"source.python meta.fstring.python source.python.embedded.python"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Python - Docstrings",
+			"scope": [
+				"string.quoted.docstring.python",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.raw.python"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - Type Hints",
+			"scope": [
+				"meta.function.python meta.function.parameters.python support.type.python",
+				"meta.function.python punctuation.separator.annotation.python",
+				"meta.function.python punctuation.separator.annotation.result.python",
+				"source.python support.type.python"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - Constants",
+			"scope": [
+				"constant.language.python",
+				"constant.other.caps.python"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python - Import",
+			"scope": [
+				"keyword.control.import.python",
+				"keyword.control.import.from.python"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Python - Module Names",
+			"scope": [
+				"source.python meta.statement.import.python entity.name.import.python",
+				"entity.name.import.python"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Python - Lambda",
+			"scope": [
+				"storage.type.function.lambda.python"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Python - Async/Await",
+			"scope": [
+				"storage.type.function.async.python",
+				"keyword.control.flow.await.python"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Python - Exception Keywords",
+			"scope": [
+				"keyword.control.exception.python",
+				"keyword.control.flow.raise.python",
+				"keyword.control.flow.try.python",
+				"keyword.control.flow.except.python",
+				"keyword.control.flow.finally.python"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python - With Statement",
+			"scope": [
+				"keyword.control.flow.with.python",
+				"keyword.control.flow.as.python"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Python - Comparison Operators",
+			"scope": [
+				"keyword.operator.comparison.python",
+				"keyword.operator.logical.python"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "Python - Arithmetic Operators",
+			"scope": [
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.assignment.python"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
 		}
 	]
 }
