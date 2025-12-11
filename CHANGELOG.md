@@ -5,6 +5,46 @@ All notable changes to **CyberUI - Cyberpunk Neon Theme** will be documented in 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-12-11
+
+### ✨ Added
+
+- 🦀 **Rust Enhanced Support**: Complete syntax highlighting for Rust
+
+  - Keywords, functions, structs, enums, traits
+  - Lifetimes with purple italic style
+  - Macros with bold italic cyan
+  - Attributes with yellow italic
+  - `self`/`super`/`crate` special highlighting
+  - `unsafe` keyword with red bold
+  - Async/await support
+  - Option/Result types
+
+- 🐹 **Go Enhanced Support**: Complete syntax highlighting for Go
+
+  - Keywords, functions, types, interfaces
+  - Package and import names
+  - Struct fields
+  - Format specifiers
+  - Error type highlighting
+  - Goroutine/defer with bold italic
+  - Channel operations with purple
+
+- ⚙️ **C/C++ Enhanced Support**: Complete syntax highlighting for C/C++
+  - Keywords, storage types, modifiers
+  - Functions definitions and calls
+  - Classes, structs, enums, unions
+  - Namespaces with italic
+  - Templates with purple italic
+  - Preprocessor directives
+  - Include paths
+  - Macros with yellow bold
+  - Pointers/references
+  - Access specifiers (public/private/protected)
+  - Virtual/override/final keywords
+  - Lambda expressions
+  - Smart pointers (unique_ptr, shared_ptr)
+
 ## [1.0.1] - 2025-12-11
 
 ### ✨ Added

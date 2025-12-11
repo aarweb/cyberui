@@ -1441,6 +1441,517 @@
 			"settings": {
 				"foreground": "#C5003C"
 			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// RUST - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Rust - Keywords",
+			"scope": [
+				"keyword.control.rust",
+				"keyword.other.rust",
+				"keyword.control.loop.rust",
+				"keyword.control.flow.rust"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Rust - Storage Keywords",
+			"scope": [
+				"storage.type.rust",
+				"storage.modifier.rust",
+				"keyword.other.fn.rust",
+				"keyword.other.type.rust",
+				"keyword.other.struct.rust",
+				"keyword.other.enum.rust",
+				"keyword.other.trait.rust",
+				"keyword.other.impl.rust",
+				"keyword.other.mod.rust",
+				"keyword.other.use.rust",
+				"keyword.other.pub.rust",
+				"keyword.other.crate.rust"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Rust - Function Definitions",
+			"scope": [
+				"entity.name.function.rust",
+				"meta.function.definition.rust entity.name.function.rust"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Rust - Function Calls",
+			"scope": [
+				"meta.function.call.rust",
+				"support.function.rust"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Rust - Types",
+			"scope": [
+				"entity.name.type.rust",
+				"entity.name.type.struct.rust",
+				"entity.name.type.enum.rust",
+				"entity.name.type.trait.rust",
+				"entity.name.type.module.rust",
+				"support.type.primitive.rust"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Rust - Traits",
+			"scope": [
+				"entity.name.type.trait.rust",
+				"entity.name.impl.rust"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Lifetime",
+			"scope": [
+				"storage.modifier.lifetime.rust",
+				"entity.name.type.lifetime.rust",
+				"punctuation.definition.lifetime.rust"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Macros",
+			"scope": [
+				"entity.name.function.macro.rust",
+				"meta.macro.rust",
+				"support.macro.rust"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Rust - Attributes",
+			"scope": [
+				"meta.attribute.rust",
+				"punctuation.definition.attribute.rust",
+				"punctuation.brackets.attribute.rust"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Self/Super/Crate",
+			"scope": [
+				"variable.language.self.rust",
+				"variable.language.super.rust",
+				"keyword.other.crate.rust"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Rust - Unsafe",
+			"scope": [
+				"keyword.other.unsafe.rust"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Rust - Async/Await",
+			"scope": [
+				"keyword.control.async.rust",
+				"keyword.control.await.rust"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Rust - Option/Result",
+			"scope": [
+				"entity.name.type.option.rust",
+				"entity.name.type.result.rust",
+				"support.type.rust"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// GO - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "Go - Keywords",
+			"scope": [
+				"keyword.control.go",
+				"keyword.function.go",
+				"keyword.package.go",
+				"keyword.import.go",
+				"keyword.type.go",
+				"keyword.struct.go",
+				"keyword.interface.go",
+				"keyword.map.go",
+				"keyword.chan.go",
+				"keyword.const.go",
+				"keyword.var.go"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Go - Storage",
+			"scope": [
+				"storage.type.go",
+				"keyword.function.go",
+				"keyword.var.go",
+				"keyword.const.go",
+				"keyword.type.go"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Go - Function Definitions",
+			"scope": [
+				"entity.name.function.go",
+				"meta.function.declaration.go entity.name.function.go"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Go - Function Calls",
+			"scope": [
+				"meta.function.call.go",
+				"support.function.go",
+				"support.function.builtin.go"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Go - Types",
+			"scope": [
+				"entity.name.type.go",
+				"support.type.go",
+				"support.type.builtin.go"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Go - Package Names",
+			"scope": [
+				"entity.name.package.go",
+				"entity.name.import.go"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Go - Struct Fields",
+			"scope": [
+				"variable.other.property.go",
+				"variable.other.member.go"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Go - Format Specifiers",
+			"scope": [
+				"constant.other.placeholder.go"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "Go - Error Handling",
+			"scope": [
+				"support.type.error.go"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Go - Goroutine/Defer",
+			"scope": [
+				"keyword.control.go.go",
+				"keyword.control.defer.go"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold italic"
+			}
+		},
+		{
+			"name": "Go - Channel Operations",
+			"scope": [
+				"keyword.operator.channel.go",
+				"keyword.chan.go"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+
+		// ═══════════════════════════════════════════════════════════════
+		// C/C++ - ENHANCED SYNTAX HIGHLIGHTING
+		// ═══════════════════════════════════════════════════════════════
+
+		{
+			"name": "C/C++ - Keywords",
+			"scope": [
+				"keyword.control.c",
+				"keyword.control.cpp",
+				"keyword.control.loop.c",
+				"keyword.control.loop.cpp",
+				"keyword.control.conditional.c",
+				"keyword.control.conditional.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "C/C++ - Storage Types",
+			"scope": [
+				"storage.type.c",
+				"storage.type.cpp",
+				"storage.type.built-in.c",
+				"storage.type.built-in.cpp",
+				"storage.type.built-in.primitive.c",
+				"storage.type.built-in.primitive.cpp",
+				"storage.modifier.c",
+				"storage.modifier.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "C/C++ - Function Definitions",
+			"scope": [
+				"entity.name.function.c",
+				"entity.name.function.cpp",
+				"entity.name.function.definition.c",
+				"entity.name.function.definition.cpp",
+				"meta.function.definition.cpp entity.name.function.cpp"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "C/C++ - Function Calls",
+			"scope": [
+				"meta.function-call.c",
+				"meta.function-call.cpp",
+				"entity.name.function.call.c",
+				"entity.name.function.call.cpp"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "C/C++ - Classes/Structs",
+			"scope": [
+				"entity.name.type.class.cpp",
+				"entity.name.type.struct.c",
+				"entity.name.type.struct.cpp",
+				"entity.name.type.enum.c",
+				"entity.name.type.enum.cpp",
+				"entity.name.type.union.c",
+				"entity.name.type.union.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "C/C++ - Namespaces",
+			"scope": [
+				"entity.name.namespace.cpp",
+				"entity.name.scope-resolution.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C/C++ - Templates",
+			"scope": [
+				"entity.name.type.template.cpp",
+				"storage.type.template.cpp",
+				"storage.type.template.argument.cpp"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C/C++ - Preprocessor",
+			"scope": [
+				"meta.preprocessor.c",
+				"meta.preprocessor.cpp",
+				"keyword.control.directive.c",
+				"keyword.control.directive.cpp",
+				"keyword.control.directive.include.c",
+				"keyword.control.directive.include.cpp",
+				"keyword.control.directive.define.c",
+				"keyword.control.directive.define.cpp",
+				"keyword.control.directive.conditional.c",
+				"keyword.control.directive.conditional.cpp",
+				"punctuation.definition.directive.c",
+				"punctuation.definition.directive.cpp"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "C/C++ - Include Paths",
+			"scope": [
+				"string.quoted.include.c",
+				"string.quoted.include.cpp",
+				"string.quoted.other.lt-gt.include.c",
+				"string.quoted.other.lt-gt.include.cpp"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "C/C++ - Macros",
+			"scope": [
+				"entity.name.function.preprocessor.c",
+				"entity.name.function.preprocessor.cpp",
+				"meta.preprocessor.macro.c",
+				"meta.preprocessor.macro.cpp"
+			],
+			"settings": {
+				"foreground": "#F3E600",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "C/C++ - Pointers/References",
+			"scope": [
+				"storage.modifier.pointer.c",
+				"storage.modifier.pointer.cpp",
+				"storage.modifier.reference.cpp",
+				"punctuation.definition.pointer.c",
+				"punctuation.definition.pointer.cpp"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "C++ - Access Specifiers",
+			"scope": [
+				"storage.modifier.specifier.access.cpp",
+				"storage.type.modifier.access.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C++ - Virtual/Override",
+			"scope": [
+				"storage.modifier.virtual.cpp",
+				"storage.modifier.override.cpp",
+				"storage.modifier.final.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C++ - Lambda",
+			"scope": [
+				"meta.lambda.cpp",
+				"punctuation.definition.lambda.cpp",
+				"punctuation.definition.capture.cpp"
+			],
+			"settings": {
+				"foreground": "#7F6CFF"
+			}
+		},
+		{
+			"name": "C++ - This Pointer",
+			"scope": [
+				"variable.language.this.cpp"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "C++ - Smart Pointers",
+			"scope": [
+				"entity.name.type.unique_ptr.cpp",
+				"entity.name.type.shared_ptr.cpp",
+				"entity.name.type.weak_ptr.cpp"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
 		}
 	]
 }
