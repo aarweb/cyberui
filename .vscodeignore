@@ -1,4 +1,43 @@
-.vscode/**
-.vscode-test/**
+# Git
+.git/
 .gitignore
+.gitattributes
+
+# Source files
+src/
+*.ts
+
+# Development
+node_modules/
+.vscode/
+.vscode-test/
+
+# Build files
+*.vsix
+.eslintrc*
+tsconfig.json
+webpack.config.js
+rollup.config.js
+
+# Documentation (optional - keep README for marketplace)
 vsc-extension-quickstart.md
+CONTRIBUTING.md
+
+# Screenshots source (keep screenshots folder for README)
+screenshots/src/
+
+# Misc
+*.log
+*.map
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Test files
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js

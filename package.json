@@ -1,18 +1,57 @@
 {
   "name": "cyberui",
-  "displayName": "CyberUI",
-  "description": "A high-contrast dark theme inspired by cyberpunk aesthetics and futuristic user interfaces (UI). Transform your editor into a high-tech terminal with vibrant neon colors—cyan, magenta, and electric green—set against deep backgrounds, optimized for immersion and late-night coding sessions.",
-  "version": "0.0.1",
+  "displayName": "CyberUI - Cyberpunk Neon Theme",
+  "description": "A stunning high contrast dark theme with vibrant neon colors for immersive dark mode coding. Reduces eye-strain with carefully balanced cyberpunk aesthetics—perfect for late-night programming sessions.",
+  "version": "1.0.0",
+  "publisher": "aarweb",
+  "author": {
+    "name": "aarweb",
+    "url": "https://github.com/aarweb"
+  },
+  "icon": "icon.png",
+  "license": "GPL-3.0",
   "engines": {
-    "vscode": "^1.106.1"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "cyberpunk",
+    "synthwave",
+    "neon",
+    "glow",
+    "dark theme",
+    "dark mode",
+    "night mode",
+    "high contrast",
+    "best theme",
+    "hacker",
+    "futuristic",
+    "retro",
+    "programming",
+    "javascript",
+    "react",
+    "python",
+    "developer",
+    "pro theme"
+  ],
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarweb/cyberui"
+  },
+  "bugs": {
+    "url": "https://github.com/aarweb/cyberui/issues"
+  },
+  "homepage": "https://github.com/aarweb/cyberui#readme",
   "contributes": {
     "themes": [
       {
-        "label": "cyberui",
+        "label": "CyberUI",
         "uiTheme": "vs-dark",
         "path": "./themes/cyberui-color-theme.json"
       }
