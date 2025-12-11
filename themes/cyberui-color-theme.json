@@ -862,6 +862,335 @@
 				"foreground": "#55EAD4",
 				"fontStyle": "bold"
 			}
+		},
+		{
+			"name": "Kotlin - Keywords",
+			"scope": [
+				"keyword.hard.fun.kotlin",
+				"keyword.hard.val.kotlin",
+				"keyword.hard.var.kotlin",
+				"keyword.hard.class.kotlin",
+				"keyword.hard.object.kotlin",
+				"keyword.hard.interface.kotlin",
+				"keyword.hard.if.kotlin",
+				"keyword.hard.else.kotlin",
+				"keyword.hard.when.kotlin",
+				"keyword.hard.return.kotlin",
+				"keyword.hard.for.kotlin",
+				"keyword.hard.while.kotlin",
+				"keyword.hard.package.kotlin",
+				"keyword.hard.import.kotlin",
+				"keyword.soft.public.kotlin",
+				"keyword.soft.private.kotlin",
+				"keyword.soft.protected.kotlin",
+				"keyword.soft.internal.kotlin",
+				"keyword.soft.override.kotlin",
+				"keyword.soft.abstract.kotlin",
+				"keyword.soft.open.kotlin",
+				"keyword.soft.data.kotlin",
+				"keyword.soft.sealed.kotlin",
+				"keyword.soft.suspend.kotlin",
+				"source.kotlin keyword",
+				"source.kotlin storage.modifier",
+				"source.kotlin storage.type"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Kotlin - Functions",
+			"scope": [
+				"source.kotlin entity.name.function",
+				"source.kotlin support.function"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Kotlin - Classes and Types",
+			"scope": [
+				"source.kotlin entity.name.type",
+				"source.kotlin entity.name.class",
+				"source.kotlin support.class"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "Kotlin - Variables and Properties",
+			"scope": [
+				"source.kotlin variable",
+				"source.kotlin variable.other",
+				"source.kotlin variable.parameter"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "Kotlin - Strings",
+			"scope": [
+				"source.kotlin string",
+				"source.kotlin string.quoted"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Kotlin - Comments",
+			"scope": [
+				"source.kotlin comment"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Kotlin - Annotations",
+			"scope": [
+				"source.kotlin entity.name.type.annotation"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Kotlin - This/Super",
+			"scope": [
+				"keyword.hard.this.kotlin",
+				"keyword.hard.super.kotlin",
+				"source.kotlin variable.language.this",
+				"source.kotlin variable.language.super"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Kotlin - Constants and Numbers",
+			"scope": [
+				"source.kotlin constant.numeric",
+				"source.kotlin constant.language"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "Kotlin - Operators",
+			"scope": [
+				"source.kotlin keyword.operator"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "Kotlin - Punctuation",
+			"scope": [
+				"source.kotlin punctuation"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "PHP - Tags",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
+				"keyword.other.class.php"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "PHP - Keywords",
+			"scope": [
+				"keyword.control.php",
+				"keyword.other.php",
+				"storage.type.php",
+				"storage.modifier.php",
+				"storage.type.class.php",
+				"storage.type.function.php",
+				"keyword.control.return.php",
+				"keyword.control.if.php",
+				"keyword.control.else.php",
+				"keyword.control.elseif.php",
+				"keyword.control.foreach.php",
+				"keyword.control.for.php",
+				"keyword.control.while.php",
+				"keyword.control.switch.php",
+				"keyword.control.case.php",
+				"keyword.control.break.php",
+				"keyword.control.continue.php",
+				"keyword.control.try.php",
+				"keyword.control.catch.php",
+				"keyword.control.throw.php"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "PHP - Functions",
+			"scope": [
+				"entity.name.function.php",
+				"support.function.php",
+				"support.function.construct.php",
+				"meta.function-call.php"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "PHP - Classes and Types",
+			"scope": [
+				"entity.name.type.class.php",
+				"support.class.php",
+				"entity.other.inherited-class.php",
+				"entity.name.type.interface.php",
+				"entity.name.type.trait.php",
+				"support.class.builtin.php"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "PHP - Variables",
+			"scope": [
+				"variable.other.php",
+				"variable.other.property.php",
+				"variable.parameter.php",
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#F3E600"
+			}
+		},
+		{
+			"name": "PHP - $this",
+			"scope": [
+				"variable.language.this.php"
+			],
+			"settings": {
+				"foreground": "#C5003C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "PHP - Strings",
+			"scope": [
+				"string.quoted.single.php",
+				"string.quoted.double.php"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "PHP - Constants and Numbers",
+			"scope": [
+				"constant.numeric.php",
+				"constant.language.php",
+				"constant.other.php",
+				"support.constant.php"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "PHP - Operators",
+			"scope": [
+				"keyword.operator.php",
+				"keyword.operator.assignment.php",
+				"keyword.operator.comparison.php",
+				"keyword.operator.logical.php",
+				"keyword.operator.string.php",
+				"keyword.operator.class.php",
+				"keyword.operator.type.php"
+			],
+			"settings": {
+				"foreground": "#C5003C"
+			}
+		},
+		{
+			"name": "PHP - Array",
+			"scope": [
+				"support.function.array.php",
+				"support.function.construct.output.php"
+			],
+			"settings": {
+				"foreground": "#55EAD4"
+			}
+		},
+		{
+			"name": "PHP - Comments",
+			"scope": [
+				"comment.line.double-slash.php",
+				"comment.block.php",
+				"comment.block.documentation.php"
+			],
+			"settings": {
+				"foreground": "#7F6CFF",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "PHP - PHPDoc Tags",
+			"scope": [
+				"keyword.other.phpdoc.php",
+				"storage.type.class.phpdoc.php"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "PHP - Namespace",
+			"scope": [
+				"entity.name.type.namespace.php",
+				"keyword.other.namespace.php",
+				"keyword.other.use.php"
+			],
+			"settings": {
+				"foreground": "#FF006E"
+			}
+		},
+		{
+			"name": "PHP - Magic Methods",
+			"scope": [
+				"support.function.magic.php"
+			],
+			"settings": {
+				"foreground": "#55EAD4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "PHP - Attributes",
+			"scope": [
+				"meta.attribute.php",
+				"support.attribute.php"
+			],
+			"settings": {
+				"foreground": "#FF006E",
+				"fontStyle": "italic"
+			}
 		}
 	]
 }
