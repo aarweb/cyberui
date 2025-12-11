@@ -1,8 +1,8 @@
 # 🌃 CyberUI: The Ultimate Cyberpunk Experience for VS Code
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/aarweb.cyberui?style=for-the-badge&logo=visual-studio-code&color=FF006E)](https://marketplace.visualstudio.com/items?itemName=aarweb.cyberui)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/aarweb.cyberui?style=for-the-badge&logo=visual-studio-code&color=55EAD4)](https://marketplace.visualstudio.com/items?itemName=aarweb.cyberui)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/aarweb.cyberui?style=for-the-badge&logo=visual-studio-code&color=F3E600)](https://marketplace.visualstudio.com/items?itemName=aarweb.cyberui)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/aarmagic.cyberui?style=for-the-badge&logo=visual-studio-code&color=FF006E)](https://marketplace.visualstudio.com/items?itemName=aarmagic.cyberui)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/aarmagic.cyberui?style=for-the-badge&logo=visual-studio-code&color=55EAD4)](https://marketplace.visualstudio.com/items?itemName=aarmagic.cyberui)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/aarmagic.cyberui?style=for-the-badge&logo=visual-studio-code&color=F3E600)](https://marketplace.visualstudio.com/items?itemName=aarmagic.cyberui)
 
 > **Transform your code editor into a futuristic neon-lit terminal.** CyberUI is the best **dark theme** for developers who love **cyberpunk aesthetics**, **synthwave vibes**, and **high contrast colors**. Designed for **immersive dark mode** coding with carefully balanced **neon glow** colors (cyan, magenta, electric yellow) that reduce **eye-strain** during those late-night programming sessions. Whether you're a hacker, a night owl coder, or simply want the most beautiful **futuristic theme** for VS Code—CyberUI delivers the ultimate visual experience.
 
@@ -59,7 +59,7 @@ CyberUI provides **enhanced syntax highlighting** for the most popular programmi
 ### From Command Line
 
 ```bash
-code --install-extension aarweb.cyberui
+code --install-extension aarmagic.cyberui
 ```
 
 ### Manual Installation
